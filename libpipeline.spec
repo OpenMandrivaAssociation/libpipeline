@@ -4,7 +4,7 @@
 
 Name: libpipeline
 Version: 1.2.1
-Release: 1
+Release: 2
 Summary: Library for manipulating pipelines of subprocesses
 Group: System/Libraries
 License: GPLv3+
