@@ -1,3 +1,4 @@
----
-sources:
+removed_sources:
   libpipeline-1.2.2.tar.gz: 89ec6f9beccb9a18b3ed6c8f1296762c54aed0cd
+sources:
+  libpipeline-1.2.3.tar.gz: af7f302daa9d15cdb0eae6eb1caa3151d54b28f0

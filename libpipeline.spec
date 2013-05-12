@@ -3,7 +3,7 @@
 %define devname %mklibname pipeline -d
 
 Name:		libpipeline
-Version:	1.2.2
+Version:	1.2.3
 Release:	1
 Summary:	Library for manipulating pipelines of subprocesses
 Group:		System/Libraries
