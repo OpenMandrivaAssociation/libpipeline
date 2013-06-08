@@ -1,14 +1,14 @@
-%define major %(echo %version |cut -d. -f1)
+%define major	%(echo %{version} |cut -d. -f1)
 %define libname %mklibname pipeline %{major}
 %define devname %mklibname pipeline -d
 
+Summary:	Library for manipulating pipelines of subprocesses
 Name:		libpipeline
 Version:	1.2.3
 Release:	1
-Summary:	Library for manipulating pipelines of subprocesses
 Group:		System/Libraries
 License:	GPLv3+
-URL:		http://libpipeline.nongnu.org/
+Url:		http://libpipeline.nongnu.org/
 Source0:	http://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
 
 %description
@@ -41,7 +41,7 @@ for manipluating pipelines of subprocesses
 %makeinstall_std
 
 %files -n %{libname}
-%{_libdir}/*.so.%{major}*
+%{_libdir}/libpipeline.so.%{major}*
 
 %files -n %{devname}
 %doc COPYING NEWS
