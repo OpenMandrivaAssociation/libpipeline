@@ -4,8 +4,8 @@
 
 Summary:	Library for manipulating pipelines of subprocesses
 Name:		libpipeline
-Version:	1.3.1
-Release:	2
+Version:	1.4.0
+Release:	1
 Group:		System/Libraries
 License:	GPLv3+
 Url:		http://libpipeline.nongnu.org/
@@ -34,7 +34,7 @@ for manipluating pipelines of subprocesses
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
