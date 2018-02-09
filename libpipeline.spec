@@ -1,11 +1,11 @@
-%define major	%(echo %{version} |cut -d. -f1)
+%define major %(echo %{version} |cut -d. -f1)
 %define libname %mklibname pipeline %{major}
 %define devname %mklibname pipeline -d
 
 Summary:	Library for manipulating pipelines of subprocesses
 Name:		libpipeline
-Version:	1.4.0
-Release:	5
+Version:	1.5.0
+Release:	1
 Group:		System/Libraries
 License:	GPLv3+
 Url:		http://libpipeline.nongnu.org/
@@ -24,7 +24,7 @@ Library for manipulating pipelines of subprocesses
 %package -n %{devname}
 Summary:	Development files for %{name}
 Group:		Development/C
-Requires:	%{libname} = %{version}-%{release}
+Requires:	%{libname} = %{EVRD}
 
 %description -n %{devname}
 Development files for %{name}, a library
@@ -49,4 +49,3 @@ for manipluating pipelines of subprocesses
 %{_includedir}/*
 %{_libdir}/pkgconfig/*
 %{_mandir}/man3/*
-
