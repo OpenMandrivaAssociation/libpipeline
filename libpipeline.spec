@@ -5,7 +5,7 @@
 Summary:	Library for manipulating pipelines of subprocesses
 Name:		libpipeline
 Version:	1.5.3
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	GPLv3+
 Url:		http://libpipeline.nongnu.org/
@@ -31,14 +31,14 @@ Development files for %{name}, a library
 for manipluating pipelines of subprocesses
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files -n %{libname}
 %{_libdir}/libpipeline.so.%{major}*
