@@ -4,12 +4,12 @@
 
 Summary:	Library for manipulating pipelines of subprocesses
 Name:		libpipeline
-Version:	1.5.3
-Release:	2
+Version:	1.5.6
+Release:	1
 Group:		System/Libraries
 License:	GPLv3+
 Url:		http://libpipeline.nongnu.org/
-Source0:	http://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
+Source0:	https://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
 
 %description
 Library for manipulating pipelines of subprocesses.
@@ -48,4 +48,4 @@ for manipluating pipelines of subprocesses
 %{_libdir}/*.so
 %{_includedir}/*
 %{_libdir}/pkgconfig/*
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
