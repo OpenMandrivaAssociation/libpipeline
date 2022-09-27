@@ -10,6 +10,7 @@ Group:		System/Libraries
 License:	GPLv3+
 Url:		http://libpipeline.nongnu.org/
 Source0:	https://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
+Patch0:		libpipeline-1.5.6-fix-clang.patch
 
 %description
 Library for manipulating pipelines of subprocesses.
@@ -44,7 +45,7 @@ for manipluating pipelines of subprocesses
 %{_libdir}/libpipeline.so.%{major}*
 
 %files -n %{devname}
-%doc COPYING NEWS
+%doc COPYING NEWS.md README.md
 %{_libdir}/*.so
 %{_includedir}/*
 %{_libdir}/pkgconfig/*
