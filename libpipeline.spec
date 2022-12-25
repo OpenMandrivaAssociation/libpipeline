@@ -4,7 +4,7 @@
 
 Summary:	Library for manipulating pipelines of subprocesses
 Name:		libpipeline
-Version:	1.5.6
+Version:	1.5.7
 Release:	1
 Group:		System/Libraries
 License:	GPLv3+
