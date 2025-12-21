@@ -12,6 +12,11 @@ Url:		https://libpipeline.nongnu.org/
 Source0:	https://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
 Patch0:		libpipeline-1.5.6-fix-clang.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Library for manipulating pipelines of subprocesses.
 
