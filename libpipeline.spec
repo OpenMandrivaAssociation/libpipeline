@@ -4,13 +4,13 @@
 
 Summary:	Library for manipulating pipelines of subprocesses
 Name:		libpipeline
-Version:	1.5.7
-Release:	2
+Version:	1.5.8
+Release:	1
 Group:		System/Libraries
 License:	GPLv3+
 Url:		https://libpipeline.nongnu.org/
 Source0:	https://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
-Patch0:		libpipeline-1.5.6-fix-clang.patch
+# dropped (no longer applies): Patch0:		libpipeline-1.5.6-fix-clang.patch
 
 BuildRequires:	autoconf
 BuildRequires:	automake
